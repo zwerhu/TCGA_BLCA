@@ -74,13 +74,7 @@ z-scored gene-wise before multiplying by the fixed coefficients.
 |   |-- final_lasso_cox_model.tsv
 |   |-- reduced_geo_compatible_model.json
 |   `-- reduced_geo_compatible_model.tsv
-|-- docs/
-|   |-- analysis_strategy.md
-|   |-- current_results_summary.md
-|   `-- paper_figure_table_plan.md
-|-- manuscript/
-|   `-- manuscript_draft.md
-`-- workflow/
+|-- workflow/
     `-- run_all_windows.ps1
 ```
 
