@@ -1,0 +1,6 @@
+gene	coefficient	tcga_train_mean_log2_tpm	tcga_train_sd_log2_tpm	geo_validation_transform
+EMP1	0.056583946477291314	5.23771492321367	1.4599056677571418	cohort-wise z-score for this gene, then multiply by coefficient
+AHNAK	0.011862678975374186	6.612946306095207	1.1665074649279772	cohort-wise z-score for this gene, then multiply by coefficient
+TNFRSF14	-0.01868590790890934	4.739583930706243	0.9039523400193625	cohort-wise z-score for this gene, then multiply by coefficient
+CLEC2D	-0.03127689274218831	2.3888855703025245	0.8383714116428832	cohort-wise z-score for this gene, then multiply by coefficient
+GSDMB	-0.10035965453013068	4.307300272813835	1.3176541823461645	cohort-wise z-score for this gene, then multiply by coefficient

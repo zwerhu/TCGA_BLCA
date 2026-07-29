@@ -1,0 +1,77 @@
+{
+  "seed": 20260745,
+  "train_fraction": 0.7,
+  "common_genes_total": 15983,
+  "common_genes_screened": 10000,
+  "candidate_genes": 220,
+  "lambda": 0.3277135566667199,
+  "n_nonzero_before_optional_trim": 5,
+  "risk_cutoff_tcga_train_median": -0.00591494365776026,
+  "final_genes": [
+    {
+      "gene": "EMP1",
+      "coefficient": 0.056583946477291314,
+      "tcga_train_mean_log2_tpm": 5.23771492321367,
+      "tcga_train_sd_log2_tpm": 1.4599056677571418,
+      "geo_validation_transform": "cohort-wise z-score for this gene, then multiply by coefficient"
+    },
+    {
+      "gene": "AHNAK",
+      "coefficient": 0.011862678975374186,
+      "tcga_train_mean_log2_tpm": 6.612946306095207,
+      "tcga_train_sd_log2_tpm": 1.1665074649279772,
+      "geo_validation_transform": "cohort-wise z-score for this gene, then multiply by coefficient"
+    },
+    {
+      "gene": "TNFRSF14",
+      "coefficient": -0.01868590790890934,
+      "tcga_train_mean_log2_tpm": 4.739583930706243,
+      "tcga_train_sd_log2_tpm": 0.9039523400193625,
+      "geo_validation_transform": "cohort-wise z-score for this gene, then multiply by coefficient"
+    },
+    {
+      "gene": "CLEC2D",
+      "coefficient": -0.03127689274218831,
+      "tcga_train_mean_log2_tpm": 2.3888855703025245,
+      "tcga_train_sd_log2_tpm": 0.8383714116428832,
+      "geo_validation_transform": "cohort-wise z-score for this gene, then multiply by coefficient"
+    },
+    {
+      "gene": "GSDMB",
+      "coefficient": -0.10035965453013068,
+      "tcga_train_mean_log2_tpm": 4.307300272813835,
+      "tcga_train_sd_log2_tpm": 1.3176541823461645,
+      "geo_validation_transform": "cohort-wise z-score for this gene, then multiply by coefficient"
+    }
+  ],
+  "tcga_metrics": [
+    {
+      "cohort": "TCGA-train",
+      "n": 288,
+      "events": 128,
+      "c_index": 0.6934189406099518,
+      "risk_cutoff_train_median": -0.00591494365776026,
+      "lambda": 0.3277135566667199,
+      "n_final_genes": 5
+    },
+    {
+      "cohort": "TCGA-test",
+      "n": 124,
+      "events": 55,
+      "c_index": 0.6044444444444445,
+      "risk_cutoff_train_median": -0.00591494365776026,
+      "lambda": 0.3277135566667199,
+      "n_final_genes": 5
+    },
+    {
+      "cohort": "TCGA-all",
+      "n": 412,
+      "events": 183,
+      "c_index": 0.667067682573631,
+      "risk_cutoff_train_median": -0.00591494365776026,
+      "lambda": 0.3277135566667199,
+      "n_final_genes": 5
+    }
+  ],
+  "note": "Trained only in TCGA on genes shared by TCGA/GSE13507/GSE31684. GEO validation uses cohort-wise z-scored expression."
+}

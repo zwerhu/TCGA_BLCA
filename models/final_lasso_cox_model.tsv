@@ -1,0 +1,15 @@
+gene	coefficient	train_mean_log2_tpm	train_sd_log2_tpm	standardization
+SERPINB2	0.04125998253935757	1.927402572473191	2.2268349365519624	(expression_log2_tpm - train_mean_log2_tpm) / train_sd_log2_tpm
+AHNAK	0.03995126042398091	6.595408281309059	1.1919084019969521	(expression_log2_tpm - train_mean_log2_tpm) / train_sd_log2_tpm
+EMP1	0.022914507233399814	5.164635270725359	1.3699325218466167	(expression_log2_tpm - train_mean_log2_tpm) / train_sd_log2_tpm
+CLSTN2	0.01726888708228136	0.7376777553539208	1.0066831174050745	(expression_log2_tpm - train_mean_log2_tpm) / train_sd_log2_tpm
+FKBP10	0.012987699987357187	5.791997884209347	1.7455480832379466	(expression_log2_tpm - train_mean_log2_tpm) / train_sd_log2_tpm
+BAIAP2	0.01252990929136831	3.629098091641616	1.0317593391109203	(expression_log2_tpm - train_mean_log2_tpm) / train_sd_log2_tpm
+TRIM16L	0.01134776610375035	2.832943197141724	1.2301336517369532	(expression_log2_tpm - train_mean_log2_tpm) / train_sd_log2_tpm
+TRIM16	0.011090026119001076	4.24107095292333	0.9803820837118487	(expression_log2_tpm - train_mean_log2_tpm) / train_sd_log2_tpm
+ZNF860	0.006282683941074355	1.5827006559705115	0.8280226614382825	(expression_log2_tpm - train_mean_log2_tpm) / train_sd_log2_tpm
+SCEL	0.00598885016650362	1.7302013975126576	1.898814680741362	(expression_log2_tpm - train_mean_log2_tpm) / train_sd_log2_tpm
+AC253576.2	-0.0025644647033812584	1.4415790390936145	0.8317419947768954	(expression_log2_tpm - train_mean_log2_tpm) / train_sd_log2_tpm
+ACSL5	-0.002945117792237384	5.769283623300556	1.6007470784625806	(expression_log2_tpm - train_mean_log2_tpm) / train_sd_log2_tpm
+CCRL2	-0.028121833886565348	2.325659108737623	1.0067015993538875	(expression_log2_tpm - train_mean_log2_tpm) / train_sd_log2_tpm
+GSDMB	-0.13972741879458206	4.298579895897264	1.3005218931279787	(expression_log2_tpm - train_mean_log2_tpm) / train_sd_log2_tpm

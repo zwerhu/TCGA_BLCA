@@ -1,0 +1,31 @@
+file	language	purpose
+tcga_blca_pipeline.py	Python	Query/download TCGA-BLCA GDC open data and build processed RNA/clinical/mutation/CNV/RPPA matrices.
+analysis_visualization_blca.R	R	Generate initial cohort, PCA, and sample-type/stage overview plots.
+differential_expression_screen.R	R	Run tumor-normal differential-expression screening and DE visualizations.
+prognostic_screening.R	R	Run univariate Cox screening and exploratory survival plots.
+fit_tcga_lasso_cox.py	Python	Fit the TCGA train/test LASSO-Cox-style model and export fixed coefficients.
+evaluate_tcga_fixed_model.R	R	Evaluate the TCGA fixed model with KM, time ROC, C-index, and Cox models.
+download_geo_cohorts.py	Python	Download GEO cohorts GSE13507 and GSE31684.
+process_geo_validation.py	Python	Process GEO expression matrices and map probes to gene symbols.
+validate_geo_fixed_model.R	R	Apply the fixed TCGA model to GEO cohorts and generate validation outputs.
+fit_geo_compatible_reduced_model.py	Python	Train the reduced GEO-compatible model using genes common to TCGA/GSE13507/GSE31684.
+evaluate_reduced_geo_compatible_model.R	R	Evaluate the reduced model across TCGA and GEO cohorts.
+prepare_downstream_inputs.py	Python	Prepare downstream expression inputs for pathway, immune, drug, and other modules.
+risk_pathway_immune_analysis.py	Python	Compute pathway enrichment and immune-signature association tables.
+plot_risk_pathway_immune.R	R	Plot pathway and immune-signature analyses.
+multiomics_support_analysis.py	Python	Analyze mutation burden, CNV burden, and RPPA support for risk groups.
+plot_multiomics_support.R	R	Plot mutation/CNV/RPPA support figures.
+download_single_cell_gse145137.py	Python	Download GSE145137 single-cell files.
+single_cell_gse145137_reduced_model_analysis.py	Python	Project the reduced model onto GSE145137 single cells.
+plot_single_cell_gse145137.R	R	Plot GSE145137 cell-type composition and reduced-score localization.
+download_scRNA_candidate_geo_sets.py	Python	Download candidate scRNA/spatial GEO datasets.
+analyze_candidate_scRNA_geo_reduced_model.py	Python	Analyze candidate scRNA/spatial GEO datasets with the reduced model.
+plot_candidate_scRNA_geo_comparison.R	R	Plot candidate scRNA/spatial support summaries.
+download_immunotherapy_cohorts.py	Python	Download immunotherapy validation datasets where available.
+extract_imvigor210_core_data.R	R	Extract IMvigor210 expression/clinical objects from local package data.
+immunotherapy_response_validation.py	Python	Validate the fixed score in immunotherapy cohorts and export response/survival tables.
+plot_immunotherapy_response_validation.R	R	Plot immunotherapy response, KM, ROC, heatmap, Sankey, and circos-style outputs.
+drug_sensitivity_gdsc2_ridge.R	R	Run lightweight GDSC2 ridge-based drug sensitivity screening.
+drug_response_oncopredict_template.R	R	Template for publication-grade oncoPredict drug-response prediction.
+generate_visual_report.R	R	Assemble a local HTML visual report from generated figures and tables.
+
