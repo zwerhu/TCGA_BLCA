@@ -223,18 +223,7 @@ review.
   those outputs as localization support rather than independent clinical
   validation.
 
-## Data and GitHub policy
 
-Do not commit:
-
-- `data/`
-- `results/`
-- `logs/`
-- local virtual environments
-- downloaded GDC/GEO/GDSC files
-- local package caches such as `py_libs/`
-
-The `.gitignore` in this repository excludes those files by default.
 
 ## Citation
 
